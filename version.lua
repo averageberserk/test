@@ -1,1 +1,1 @@
-local FWTestCloudVersion = "v1.0.0"
+local FWTestCloudVersion = "v1.0.1"

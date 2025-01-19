@@ -1,1 +1,1 @@
-FWTestCloudVersion = "v1.0.0"
+FWTestCloudVersion = "v1.0.1"

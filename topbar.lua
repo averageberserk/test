@@ -5,14 +5,14 @@ Use addButton() to create buttons.
 addButton requires you to specify some things in order to work, let's break the function.
 addButton(
     buttonType,     string     defines the button type, a button can be "single", "group", or "list", "group" buttons still on development, so expect some bugs!
-    listParent,     number     the button's parent ID (if is a list), set to -2 if it isn't a list button, set to -1 to make it independient.
-    groupParent,    number     the button's parent ID (if is a group), set to -2 if it isn't a group button, set to -1 to make it independient.
-    isToggleable,   statement  defines if the button is toggleable or not.
+    listParent,     number     the button's parent ID (if is a list), set to -1 if it isn't a list button, set to 0 to make a new list.
+    groupParent,    number     the button's parent ID (if is a group), set to -1 if it isn't a group button, set to 0 to make a new group.
+    isToggleable,   boolean    defines if the button is toggleable or not.
     buttonPosition, string     defines the button's top-bar position, can be "left" or "right" aligned.
-    hasImage,       statement  determines if the button has an image.
+    hasImage,       boolean    determines if the button has an image.
     buttonImageId,  string     defines the image ID, only include the ID, not the URL.
     toggledImageId, string     defines the toggled image ID, only applies if the button is toggleable, leave it empty if your button isn't toggleable.
-    hasText,        statement  determines if the button has text.
+    hasText,        boolean    determines if the button has text.
     buttonContent,  string     defines the button's default text, it will also be used as the un-toggled button content.
     toggledContent, string     defines the toggled button's text, only applies if the button is toggleable, leave it empty if your button isn't toggleable.
     callback,       function   defines the button's action when pressed, it will be used as the toggle function if is toggleable.
